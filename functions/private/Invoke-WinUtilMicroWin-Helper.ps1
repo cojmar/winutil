@@ -725,7 +725,7 @@ function New-FirstRun {
         }
     }
 
-    "FirstStartup has worked" | Out-File -FilePath c:\windows\LogFirstRun.txt -Append -NoClobber
+    "FirstStartup has worked?" | Out-File -FilePath c:\windows\LogFirstRun.txt -Append -NoClobber
 
     $taskbarPath = "$env:AppData\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar"
     # Delete all files on the Taskbar
